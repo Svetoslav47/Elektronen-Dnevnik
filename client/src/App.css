@@ -1,0 +1,22 @@
+.topBar{
+  background-color: #107dac;
+  height: 5%;
+}
+
+.sideBar{
+  background-color: #5aa0be;
+  height: 95%;
+  width: 10%;
+}
+
+.sideAndHolder{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.site{
+  width: 100%;
+}
+
+
