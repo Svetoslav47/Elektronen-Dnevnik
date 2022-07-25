@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import SignIn from "./pages/SignIn/SignIn.jsx";
 import MainPage from "./pages/MainPage/MainPage.jsx";
 import ChangeTempPassword from "./pages/ChangePassword/ChangeTempPassword.jsx";
+import Marks from "./pages/Grades/Marks.jsx";
 
 import "./App.css";
 import { useAuth } from "./contexts/AuthContext";
@@ -57,6 +58,7 @@ const MainSite = () => {
         <div className="site">
           <Routes>
             <Route exact path="/" element={<MainPage />} />
+            <Route exact path="/marks" element={<Marks />} />
           </Routes>
         </div>
       </div>

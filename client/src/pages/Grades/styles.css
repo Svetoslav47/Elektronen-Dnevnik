@@ -1,0 +1,59 @@
+table,
+td {
+    border: 1px solid #333;
+    text-align: center;
+}
+
+td {
+}
+
+td.name {
+    text-align: left;
+    padding: 0px 0.5em;
+}
+
+.currentMarks{
+    width: 10em;
+}
+
+.markRow {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.mark{
+    cursor: pointer;
+    width: 0.5em;
+    margin: 0.25em 0.25em;
+    padding: 0.2em 0.3em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.termMark {
+    width: auto;
+    cursor:default;
+}
+
+.mark-2{
+    background-color: red;
+}
+
+.mark-3{
+    background-color: orange;
+}
+
+.mark-4{
+    background-color: yellow;
+}
+
+.mark-5{
+    background-color: lightblue;
+}
+
+.mark-6{
+    background-color: lightgreen;
+}

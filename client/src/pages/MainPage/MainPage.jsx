@@ -13,7 +13,7 @@ const MainPage = () => {
 
     return (
         <div className='mainPage'>
-            <h1 className="studentName">Светослав Б. Илиев 7В</h1>
+            <h1 className="studentName">{currentUser.firstName} {currentUser.surname[0]}. {currentUser.lastName}</h1>
             <div className="navButtons">
                 <button className="navButton">
                     <div>

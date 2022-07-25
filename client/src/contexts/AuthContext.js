@@ -71,7 +71,9 @@ export const AuthProvider = ({ children }) => {
           const userDocumentRef = getUserDocRef(user?.uid);
 
           getDoc(userDocumentRef).then((userDocFromServer) => {
-            setCurrentUser(userDocFromServer.data());
+            const rawCurrrentUser = userDocFromServer.data();
+            rawCurrrentUser.uid = auth.currentUser.uid;
+            setCurrentUser(rawCurrrentUser);
             setIsLoading(false);
           });
         }
